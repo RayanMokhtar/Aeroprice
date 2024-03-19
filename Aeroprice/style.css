@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+        body{
+          background-color: #97E5C0;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100%;
+          font-family: 'Poppins', sans-serif;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 8px; 
+            width: 100%; 
+        }
+
+        .form-check-input {
+            width: 1.3em; 
+            height: 1.3em;
+        }
+
+        .form-check-input:checked {
+            background-color: #97E5C0;
+            border-color: #97E5C0; 
+        }
+
+        .form-check-input:focus {
+            box-shadow: none; 
+        }
+        .right-box{
+            padding:40px 30px 40px 40px;
+
+        }
+        ::placeholder{
+            font-size: 16px;
+        }
+        
+        footer {
+          margin-top: 0; 
+        }
+
+/* Style du pied de page */
+footer {
+  margin-top:40%;
+    padding: 30px 0; /* Espacement intérieur du pied de page */
+}
+/* les lien */
+.container .list-unstyled li a{
+  text-decoration: none;
+}
+.container .list-unstyled li a:hover{
+  font-weight: bold;
+  color: aliceblue;
+}
+/* Style des icônes Font Awesome */
+i.fab.fa-facebook {
+  font-size: 32px; /* Taille de l'icône Facebook */
+  color: #3b5998; /* Couleur de l'icône Facebook */
+  margin-right: 10px
+}
+
+i.fab.fa-twitter {
+  font-size: 32px; /* Taille de l'icône Twitter */
+  color: #1da1f2; /* Couleur de l'icône Twitter */
+  margin-right: 10px
+}
+
+i.fab.fa-instagram {
+  font-size: 32px; /* Taille de l'icône Instagram */
+  color: #e4405f; /* Couleur de l'icône Instagram */
+  margin-right: 10px
+}
