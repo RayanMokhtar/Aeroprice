@@ -1,8 +1,8 @@
 <?php
-$host = "mysql-aeroprice.alwaysdata.net"; 
+$host = "mysql-aeroprixxxxxxxxxxxxxxxxxxx.alwaysdata.net"; 
 $username = 'aeroprice';
-$password = 'ahcenerayanziane'; 
-$database = 'aeroprice_db'; 
+$password = 'identifiant'; 
+$database = 'FauxIdentifiants'; 
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$database", $username, $password);
